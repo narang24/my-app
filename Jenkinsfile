@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'Nothing to test'
+                bat 'echo Nothing to test'
             }
         }
         stage('Build') {
